@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.poster{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.pinimg.com/originals/b9/90/f9/b990f93ae4b8a47004e5a55207ca319d.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    width: 85;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    color: white;
+}
+.heads{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    text-align: center;
+    color: rgb(161, 100, 72);
+}
+.heads h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.heads p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.menuchart{
+    max-width: 1400px;
+    margin: auto;
+    overflow: auto;
+    height: auto;
+    width: 100%;
+}
+
+.menuchart{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.creativemarket.com/0.1.0/ps/1975336/5184/1763/m1/fpnw/wm0/1-8731-.jpg?1480677900&s=8572311a9c73f92b090472cc2380be42);
+    background-size: cover;
+    background-position: center;
+}
+.alcoholfree{
+    margin: 5px;
+    border: saddlebrown;
+    float: left;
+    width: 390px;
+    /* margin-right: 100px; */
+    margin-left: 100px;
+}
+.button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #961e00;
+    background: saddlebrown;
+    color: #fff;
+    
+}
+.cold{
+    margin: 5px;
+    border: saddlebrown;
+    float:left;
+    width: 390px;
+    /* margin-left: 100px; */
+}
+.hot{
+    margin: 5px;
+    border: saddlebrown;
+    float: left;
+    width: 390px;
+}
+/* .hotc{
+    display: block;
+    border: solid;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: rgb(122, 22, 5);
+    color: wheat;
+    font-family: montserrat sans-serif;
+} */
