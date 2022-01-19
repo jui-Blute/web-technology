@@ -1,0 +1,43 @@
+body{
+    padding: 10px;
+}
+.formdesign{
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(16, 133, 123);
+}
+.formdesign input{
+    width: 45%;
+    padding: 12px,20px;
+    border: 2px solid rgb(16, 133, 123);
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.formerror{
+    color: darkred;
+    font-size: small;
+    font-style: normal;
+}
+.btn{
+    width: 100px;
+    border: 2px;
+    background-color: olivedrab;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-style:initial;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
